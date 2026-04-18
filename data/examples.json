@@ -1,0 +1,58 @@
+{
+  "examples": [
+    {
+      "id": "wrong-floor-arch",
+      "project": "Wrong Floor",
+      "title": "GameplayLoop Module",
+      "description": "The core server-side round manager. Handles state transitions, player assignment, and win/loss conditions using a clean OOP pattern with my standard _G.Utility convention.",
+      "language": "luau",
+      "hierarchy": {
+        "ServerScriptService": {
+          "Services": {
+            "Core": {
+              "GameplayLoop.lua": "MODULE",
+              "RoundManager.lua": "MODULE",
+              "FloorGenerator.lua": "MODULE"
+            },
+            "Data": {
+              "PlayerData.lua": "MODULE"
+            }
+          },
+          "Init.server.lua": "SCRIPT"
+        },
+        "ReplicatedStorage": {
+          "Modules": {
+            "Utility.lua": "MODULE",
+            "Network.lua": "MODULE"
+          },
+          "Assets": {
+            "UI": "FOLDER",
+            "VFX": "FOLDER"
+          }
+        },
+        "ReplicatedFirst": {
+          "LoadingScreen.lua": "LOCAL_SCRIPT"
+        }
+      },
+      "code": "-- >> GameplayLoop Module\n-- Core round management system for Wrong Floor\n-- Uses standard Init(mod) pattern with _G.Utility\n\nlocal GameplayLoop = {}\n\n-- >> Services\nlocal Players = game:GetService(\"Players\")\nlocal RunService = game:GetService(\"RunService\")\n\n-- >> Constants\nlocal ROUND_DURATION = 120 --// seconds per round\nlocal INTERMISSION = 15   --// seconds between rounds\n\n-- >> State\nlocal currentState = \"Waiting\"\nlocal roundTimer = 0\nlocal activePlayers = {}\n\n-- >> Init\nfunction GameplayLoop.Init(mod)\n\t_G.Utility.DebugPrint(\"GameplayLoop initialized\")\n\n\t--// Wire up remote events\n\tmod.Network:BindEvent(\"RequestState\", function(player)\n\t\tmod.Network:FireClient(player, \"StateUpdate\", currentState, roundTimer)\n\tend)\n\n\t--// Begin loop\n\tRunService.Heartbeat:Connect(function(dt)\n\t\tGameplayLoop._Tick(dt, mod)\n\tend)\nend\n\n-- >> Internal\nfunction GameplayLoop._Tick(dt, mod)\n\tif currentState == \"InRound\" then\n\t\troundTimer -= dt\n\t\tif roundTimer <= 0 then\n\t\t\tGameplayLoop._EndRound(mod)\n\t\tend\n\tend\nend\n\nfunction GameplayLoop._EndRound(mod)\n\t_G.Utility.DebugPrint(\"Round ended — transitioning to intermission\")\n\tcurrentState = \"Intermission\"\n\troundTimer = INTERMISSION\n\tmod.Network:FireAllClients(\"StateUpdate\", currentState, roundTimer)\nend\n\nreturn GameplayLoop"
+    },
+    {
+      "id": "silhouette-renderer",
+      "project": "Wrong Floor",
+      "title": "Silhouette Renderer",
+      "description": "The visual system that gives Wrong Floor its distinct look. Clones character parts, fills them black, and adds white outline clones using a negative scale trick. Handles z-ordering via render priority.",
+      "language": "luau",
+      "hierarchy": {
+        "ReplicatedStorage": {
+          "Modules": {
+            "SilhouetteRenderer.lua": "MODULE"
+          }
+        },
+        "StarterPlayerScripts": {
+          "SilhouetteClient.lua": "LOCAL_SCRIPT"
+        }
+      },
+      "code": "-- >> SilhouetteRenderer Module\n-- Applies black-fill + white-outline silhouette effect to characters\n-- Called client-side per character addition\n\nlocal SilhouetteRenderer = {}\n\n-- >> Constants\nlocal BODY_COLOR = Color3.fromRGB(0, 0, 0)       --// black fill\nlocal OUTLINE_COLOR = Color3.fromRGB(255,255,255) --// white outline\nlocal OUTLINE_SCALE = 1.04                        --// slightly larger clone\n\n-- >> Init\nfunction SilhouetteRenderer.Init(mod)\n\t_G.Utility.DebugPrint(\"SilhouetteRenderer ready\")\nend\n\n-- >> Apply silhouette to a character model\nfunction SilhouetteRenderer.Apply(character)\n\tfor _, part in ipairs(character:GetDescendants()) do\n\t\tif part:IsA(\"BasePart\") and part.Name ~= \"HumanoidRootPart\" then\n\n\t\t\t--// Black body fill\n\t\t\tpart.Color = BODY_COLOR\n\t\t\tpart.Material = Enum.Material.SmoothPlastic\n\t\t\tpart.CastShadow = false\n\n\t\t\t--// White outline clone\n\t\t\tlocal outline = part:Clone()\n\t\t\toutline.Color = OUTLINE_COLOR\n\t\t\toutline.Size = part.Size * OUTLINE_SCALE\n\t\t\toutline.CFrame = part.CFrame\n\t\t\toutline.CanCollide = false\n\t\t\toutline.CastShadow = false\n\n\t\t\t--// Parent under part so it follows it\n\t\t\tlocal weld = Instance.new(\"WeldConstraint\")\n\t\t\tweld.Part0 = part\n\t\t\tweld.Part1 = outline\n\t\t\tweld.Parent = outline\n\t\t\toutline.Parent = part\n\t\tend\n\tend\nend\n\nreturn SilhouetteRenderer"
+    }
+  ]
+}

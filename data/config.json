@@ -1,0 +1,95 @@
+{
+  "name": "Numan",
+  "handle": "numanluau",
+  "age": 16,
+  "title": "Roblox Game Developer",
+  "subtitle": "Fullstack Scripter · 5+ Years Experience",
+  "bio": "I'm a 16-year-old fullstack Roblox developer with over 5 years of experience building games, tools, and systems. I specialize in backend architecture, OOP design patterns, and modular codebases but I can hold my own on the frontend too.",
+  "github": "https://github.com/numanluau",
+  "githubUsername": "numanluau",
+  "roblox": "https://www.roblox.com/users/275764279/profile",
+  "discord": "@numantf6",
+  "screenshotsRepo": "numanluau/numanluau.github.io",
+  "skills": [
+    {
+      "name": "Luau",
+      "level": 95,
+      "icon": "🎮",
+      "primary": true,
+      "description": "OOP, modular codebases, full server/client architecture"
+    },
+    {
+      "name": "Python",
+      "level": 75,
+      "icon": "🐍",
+      "primary": false,
+      "description": "Automation tools, scripts, data processing"
+    },
+    {
+      "name": "HTML / CSS",
+      "level": 72,
+      "icon": "🌐",
+      "primary": false,
+      "description": "Frontend layouts, styling, responsive design"
+    },
+    {
+      "name": "C#",
+      "level": 60,
+      "icon": "⚙️",
+      "primary": false,
+      "description": "Application development"
+    },
+    {
+      "name": "JavaScript",
+      "level": 58,
+      "icon": "⚡",
+      "primary": false,
+      "description": "Web scripting, automation, tooling"
+    }
+  ],
+  "stats": [
+    { "label": "Years Developing", "value": "5+" },
+    { "label": "Projects Shipped", "value": "5+" },
+    { "label": "Lines of Luau", "value": "50k+" },
+    { "label": "Automated Tools", "value": "15+" }
+  ],
+  "music": [
+    {
+      "title": "ULTRASONIC FAITH - Grace OST",
+      "artist": "Phill C.",
+      "src": "music/UltrasonicFaith.mp3",
+      "cover": "music/UltrasonicFaith.jpg"
+    },
+    {
+      "title": "Dundy Lion",
+      "artist": "Markus Kienzl",
+      "src": "music/DundyLion.mp3",
+      "cover": "music/DundyLion.jpg"
+    },
+    {
+      "title": "No Hesitation",
+      "artist": "Yoshimasa Terui",
+      "src": "music/NoHesitation.mp3",
+      "cover": "music/NoHesitation.jpg"
+    },
+    {
+      "title": "Thunderclap",
+      "artist": "Yoshimasa Terui",
+      "src": "music/Thunderclap.mp3",
+      "cover": "music/Thunderclap.jpg"
+    },
+    {
+      "title": "ACTION & CONSEQUENCE - Grace OST",
+      "artist": "Sebastian vey Fennec & NaomiDoez",
+      "src": "music/ActionsAndConsequence.mp3",
+      "cover": "music/ActionsAndConsequence.jpg"
+    },
+    {
+      "title": "BLOODY DEVASTATION - Grace OST",
+      "artist": "Phill C.",
+      "src": "music/BloodyDevestation.mp3",
+      "cover": "music/BloodyDevestation.jpg"
+    }
+  ],
+  "background": "assets/bg.jpg"
+}

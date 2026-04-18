@@ -1,0 +1,43 @@
+{
+  "projects": [
+    {
+      "id": "wrong-floor",
+      "name": "Wrong Floor",
+      "tagline": "Round-based elevator heist game",
+      "description": "A stylish round-based heist game set in an elevator. Features a unique silhouette art style with black-filled characters and white outlines. Players navigate floors, avoid entities, and repossess the item before the elevator moves on.",
+      "status": "In Development",
+      "genre": "Heist / Round-Based",
+      "year": "2026",
+      "thumbnail": "screenshots/wrong-floor/thumb.png",
+      "screenshots": [
+        "screenshots/wrong-floor/1.mp4"
+      ],
+      "tags": ["Rogue-Like", "Round-Based", "Horror", "LUAU"],
+      "features": [
+        "Custom silhouette rendering system",
+        "Modular round management",
+        "Dynamic floor generation",
+        "Server-authoritative gameplay loop"
+      ]
+    },
+    {
+      "id": "betray",
+      "name": "Betray",
+      "tagline": "Murder Mystery like game with gamemodes",
+      "description": "A murder mystery game with stylized cosmetics made for children. Features multiple gamemodes to spice up gameplay.",
+      "status": "Released",
+      "genre": "Survival / Murder Mystery",
+      "year": "2025",
+      "thumbnail": "screenshots/betray/thumb.png",
+      "screenshots": [
+        "screenshots/betray/1.png"
+      ],
+      "tags": ["Luau", "OOP", "Modular"],
+      "features": [
+        "Custom gamemodes to make each round feel unique",
+        "Unique visuals to complement the sick knives and cosmetics",
+        "Designed for children in mind with simple ui"
+      ]
+    }
+  ]
+}
