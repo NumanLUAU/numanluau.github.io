@@ -55,10 +55,10 @@
   ],
   "music": [
     {
-      "title": "Last Surprise",
-      "artist": "Lyn",
-      "src": "music/LastSurprise.mp3",
-      "cover": "music/LastSurprise.jpg"
+      "title": "It's Going Down Now",
+      "artist": "Azumi Takahashi",
+      "src": "music/ItsGoingDownNow.mp3",
+      "cover": "music/ItsGoingDownNow.jpg"
     }
   ],
   "background": "assets/bg-home.jpg"
