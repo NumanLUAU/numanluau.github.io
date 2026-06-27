@@ -49,7 +49,6 @@
   ],
   "stats": [
     { "label": "Years Developing", "value": "5+" },
-    { "label": "Projects Shipped", "value": "5+" },
     { "label": "Lines of Luau", "value": "50k+" },
     { "label": "Automated Tools", "value": "15+" }
   ],
