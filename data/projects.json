@@ -21,22 +21,21 @@
       ]
     },
     {
-      "id": "betray",
-      "name": "Betray",
-      "tagline": "Murder Mystery like game with gamemodes",
-      "description": "A murder mystery game with stylized cosmetics made for children. Features multiple gamemodes to spice up gameplay.",
+      "id": "om",
+      "name": "Outcome Memories Rewritten",
+      "tagline": "Asymmetrical horror game with SEGA characters",
+      "description": "A fast paced, Asymmetrical game with SEGA characters.",
       "status": "Released",
-      "genre": "Survival / Murder Mystery",
+      "genre": "Survival / Juggernaut",
       "year": "2025",
-      "thumbnail": "screenshots/betray/thumb.png",
+      "thumbnail": "screenshots/om/thumb.png",
       "screenshots": [
-        "screenshots/betray/1.png"
+        "screenshots/om/1.png"
       ],
-      "tags": ["Luau", "OOP", "Modular"],
+      "tags": ["8v1", "Survival", "Modular"],
       "features": [
-        "Custom gamemodes to make each round feel unique",
-        "Unique visuals to complement the sick knives and cosmetics",
-        "Designed for children in mind with simple ui"
+        "Wide variety of killers and survivors with different playstyles",
+        "Unique visuals to complement the artstyle"
       ]
     }
   ]
