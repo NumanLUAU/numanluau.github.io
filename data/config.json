@@ -49,7 +49,6 @@
   ],
   "stats": [
     { "label": "Years Developing", "value": "5+" },
-    { "label": "Projects Shipped", "value": "5+" },
     { "label": "Lines of Luau", "value": "50k+" },
     { "label": "Automated Tools", "value": "15+" }
   ],
@@ -59,19 +58,7 @@
       "artist": "Phill C.",
       "src": "music/UltrasonicFaith.mp3",
       "cover": "music/UltrasonicFaith.jpg"
-    },
-    {
-      "title": "Dundy Lion",
-      "artist": "Markus Kienzl",
-      "src": "music/DundyLion.mp3",
-      "cover": "music/DundyLion.jpg"
-    },
-    {
-      "title": "No Hesitation",
-      "artist": "Yoshimasa Terui",
-      "src": "music/NoHesitation.mp3",
-      "cover": "music/NoHesitation.jpg"
-    },
+    }
     {
       "title": "Thunderclap",
       "artist": "Yoshimasa Terui",
