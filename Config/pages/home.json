@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "heading": "About Me",
+      "items": [
+        "**Age:** 16 years old",
+        "**Experience:** 6 years of full-stack Roblox development",
+        "Experienced in building complete Roblox systems, including server architecture, UI, DataStores, frameworks, and everything in between."
+      ]
+    },
+    {
+      "heading": "Strengths",
+      "items": [
+        "Full-stack Roblox development",
+        "Server-side systems and architecture",
+        "UI development",
+        "DataStore and persistent-data systems",
+        "Framework-based development",
+        "Codebase restructuring and complete rewrites",
+        "Performance optimization",
+        "Writing clean, organized, and maintainable code",
+        "Building systems that are easy for other developers to understand and extend",
+        "Improving poorly structured or difficult-to-maintain codebases"
+      ]
+    },
+    {
+      "heading": "Weaknesses",
+      "items": [
+        "Physics-based systems",
+        "Systems that require a lot of math"
+      ]
+    },
+    {
+      "heading": "Coding Practices",
+      "items": [
+        "Clean and consistent code structure",
+        "Readable code that is easy to understand and modify",
+        "Clear comments focused on useful context and complex behavior",
+        "Code designed to be understandable for junior developers",
+        "Code structured so senior developers can easily extend existing systems",
+        "Strong focus on maintainability rather than simply making something work",
+        "Performance and optimization are considered throughout development",
+        "Comfortable completely rewriting systems when an existing codebase requires it"
+      ]
+    },
+    {
+      "heading": "Working Hours",
+      "badge": "10:00 PM - 2:30 AM EST"
+    }
+  ]
+}

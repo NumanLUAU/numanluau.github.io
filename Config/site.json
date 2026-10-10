@@ -1,0 +1,16 @@
+{
+  "name": "Numan",
+  "role": "Roblox Fullstack Scripter",
+  "avatar": "Assets/profile.png",
+  "theme": {
+    "backgroundTop": "#500000",
+    "backgroundBottom": "#ff0000",
+    "cardOpacity": 0.72,
+    "font": "Inter"
+  },
+  "github": {
+    "owner": "numanluau",
+    "repo": "numanluau.github.io",
+    "branch": "main"
+  }
+}

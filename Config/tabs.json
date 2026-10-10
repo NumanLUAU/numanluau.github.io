@@ -1,0 +1,8 @@
+[
+  { "id": "home", "label": "Home", "type": "page", "title": "", "hash": "", "enabled": true },
+  { "id": "work", "label": "Proof Of Work", "type": "work", "title": "Proof Of Work", "hash": "proofofwork", "enabled": true },
+  { "id": "reviews", "label": "Reviews", "type": "reviews", "title": "Reviews", "hash": "reviews", "enabled": true },
+  { "id": "tos", "label": "ToS", "type": "page", "title": "Terms Of Service", "hash": "tos", "enabled": true },
+  { "id": "payment", "label": "Payment", "type": "page", "title": "Payment", "hash": "payment", "enabled": true },
+  { "id": "contact", "label": "Contact", "type": "contact", "title": "Contact", "hash": "contact", "enabled": true }
+]

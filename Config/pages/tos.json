@@ -1,0 +1,54 @@
+{
+  "sections": [
+    {
+      "heading": "Payment",
+      "items": [
+        "A 50% upfront payment is required before work begins.",
+        "The remaining 50% is paid after the agreed work is completed.",
+        "For small commissions, payment is split into 50% upfront and 50% after completion.",
+        "For larger or ongoing projects, work can be handled per task or per month."
+      ]
+    },
+    {
+      "heading": "Project Requirements",
+      "items": [
+        "You must provide all assets required for the requested work.",
+        "You must provide a Game Design Document before development begins.",
+        "The Game Design Document should clearly describe every system that is expected to be developed."
+      ]
+    },
+    {
+      "heading": "Game Design Document",
+      "text": [
+        "The provided Game Design Document should contain enough information for development to begin without requiring major assumptions about how the requested systems should work."
+      ]
+    },
+    {
+      "heading": "Development Structure",
+      "items": [
+        "Work can be completed per task for smaller commissions.",
+        "Work can be completed monthly for larger or ongoing projects.",
+        "The payment structure will be agreed upon before development begins.",
+        "Large projects may be separated into milestones or individual tasks."
+      ]
+    },
+    {
+      "heading": "Scope Changes",
+      "items": [
+        "Requests outside the agreed scope may require additional payment.",
+        "Major changes to already completed systems may be treated as new work.",
+        "Additional assets or requirements should be provided before the related work begins."
+      ]
+    },
+    {
+      "heading": "Communication",
+      "text": [
+        "Clear communication is expected throughout development. Requirements, assets, design documents, and other relevant information should be provided before the corresponding work begins."
+      ]
+    },
+    {
+      "heading": "Availability",
+      "badge": "10:00 PM - 2:30 AM EST"
+    }
+  ]
+}

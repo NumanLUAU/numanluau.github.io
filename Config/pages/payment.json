@@ -1,0 +1,43 @@
+{
+  "sections": [
+    {
+      "heading": "Commissions",
+      "text": ["Commissions start at **$15 USD** or **2,500 Robux**."]
+    },
+    {
+      "heading": "Part-Time",
+      "text": ["Part-time work starts at **$250 USD** or **25,000 Robux**."]
+    },
+    {
+      "heading": "Per-Task",
+      "text": [
+        "For per-task work, you will provide a task sheet containing the requested tasks and requirements. Pricing will be determined based on the number of tasks, their complexity, and the amount of work required. The final price can be discussed and negotiated before the work begins."
+      ]
+    },
+    {
+      "heading": "Per-Month",
+      "text": [
+        "For ongoing monthly work, we can discuss a custom budget. For example, a **$900** budget can be structured as **$150 upfront**, followed by **$250 per month** for the next 3 months."
+      ]
+    },
+    {
+      "heading": "Deadlines",
+      "text": [
+        "If work from the original agreed scope remains incomplete after the agreed 3-month period due to my own failure to complete it on time, I will continue working on the remaining work without charging for an additional month. This applies until the original agreed scope is completed.",
+        "If you provide new tasks or requirements that were not part of the original agreed scope, those will be treated as new work and may require additional payment."
+      ]
+    },
+    {
+      "heading": "PayPal",
+      "text": ["Payments can be sent through [paypal.me/ar6967](https://paypal.me/ar6967)"]
+    },
+    {
+      "heading": "Payment Confirmation",
+      "text": ["After sending payment, please provide a screenshot as proof of payment."]
+    },
+    {
+      "heading": "PayPal Payment Method",
+      "text": ["When possible, please use PayPal Friends and Family for payments, so the payment is less likely to be held by PayPal."]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "pageTitle": "Numan's Portfolio",
+  "title": "Numan | Roblox Fullstack Scripter",
+  "description": "16-year-old Roblox Fullstack Scripter with 6 years of experience building high-quality, optimized games, systems, UI, datastores, and frameworks. View my portfolio and proof of work.",
+  "image": "Assets/thumbnail.png",
+  "imageAlt": "Numan's Portfolio",
+  "url": "https://numanluau.github.io/",
+  "siteName": "Numan's Portfolio",
+  "twitterHandle": "@numantf6",
+  "cardType": "summary_large_image",
+  "themeColor": "#ff0000",
+  "locale": "en_US"
+}
