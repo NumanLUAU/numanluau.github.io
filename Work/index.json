@@ -1,5 +1,49 @@
 [
   {
+    "name": "portfolio 9.png",
+    "title": "Basic Dialogue System"
+  },
+  {
+    "name": "portfolio 11.png",
+    "title": "Dialogue System Enhancement 1"
+  },
+  {
+    "name": "portfolio 10.png",
+    "title": "Dialogue System Enhancement 2"
+  },
+  {
+    "name": "portfolio 5.png",
+    "title": "Dialogue System Enhancement 3"
+  },
+  {
+    "name": "portfolio 4.png",
+    "title": "Dialogue System Enhancement 4"
+  },
+  {
+    "name": "portfolio 8.png",
+    "title": "Lighting Effects"
+  },
+  {
+    "name": "portfolio 3.png",
+    "title": "Sunny Weather"
+  },
+  {
+    "name": "portfolio 2.png",
+    "title": "Rainy Weather"
+  },
+  {
+    "name": "portfolio 6.png",
+    "title": "Rain System w/ Droplets GFX"
+  },
+  {
+    "name": "portfolio 7.png",
+    "title": "Night Aurora Weather + Rain"
+  },
+  {
+    "name": "portfolio 1.png",
+    "title": "Stormy Weather"
+  },
+  {
     "name": "AntiCheat Showcase.mp4"
   },
   {
@@ -54,6 +98,7 @@
     "name": "Speedrun Parkour System Showcase.mp4"
   },
   {
-    "name": "Weather System with Rain.mp4"
+    "name": "Weather System with Rain.mp4",
+    "title": "Simple Weather System with Rain"
   }
 ]
