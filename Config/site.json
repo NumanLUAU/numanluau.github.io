@@ -3,10 +3,14 @@
   "role": "Roblox Fullstack Scripter",
   "avatar": "Assets/profile.png",
   "theme": {
-    "backgroundTop": "#500000",
-    "backgroundBottom": "#ff0000",
-    "cardOpacity": 0.72,
-    "font": "Inter"
+    "seedColor": "#D32F2F",
+    "paletteVariant": "vibrant",
+    "colorMode": "auto",
+    "motion": "expressive",
+    "contrast": "standard",
+    "font": "Google Sans",
+    "themePicker": true,
+    "shapes": true
   },
   "github": {
     "owner": "numanluau",

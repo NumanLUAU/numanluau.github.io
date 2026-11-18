@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "type": "module",
+  "description": "Material 3 Expressive portfolio. Run `npm run build` after changing tools/entry.js or upgrading the md3e-web package.",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "fonts": "node tools/fetch-fonts.mjs"
+  },
+  "dependencies": {
+    "@materialwebunofficial/md3e-web": "^1.0.14"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

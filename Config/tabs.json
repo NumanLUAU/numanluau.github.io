@@ -1,50 +1,56 @@
 [
   {
-    "title": "",
-    "hash": "",
-    "enabled": true,
     "id": "home",
     "label": "Home",
-    "type": "page"
+    "icon": "home",
+    "type": "page",
+    "title": "",
+    "hash": "",
+    "enabled": true
   },
   {
-    "title": "Proof Of Work",
-    "hash": "proofofwork",
-    "enabled": true,
     "id": "work",
     "label": "Proof Of Work",
-    "type": "work"
+    "icon": "play_circle",
+    "type": "work",
+    "title": "Proof Of Work",
+    "hash": "proofofwork",
+    "enabled": true
   },
   {
-    "title": "Reviews",
-    "hash": "reviews",
-    "enabled": true,
     "id": "reviews",
     "label": "Reviews",
-    "type": "reviews"
+    "icon": "reviews",
+    "type": "reviews",
+    "title": "Reviews",
+    "hash": "reviews",
+    "enabled": true
   },
   {
-    "title": "Terms Of Service",
-    "hash": "tos",
-    "enabled": true,
     "id": "tos",
     "label": "ToS",
-    "type": "page"
+    "icon": "gavel",
+    "type": "page",
+    "title": "Terms Of Service",
+    "hash": "tos",
+    "enabled": true
   },
   {
-    "title": "Payment",
-    "hash": "payment",
-    "enabled": true,
     "id": "payment",
     "label": "Payment",
-    "type": "page"
+    "icon": "payments",
+    "type": "page",
+    "title": "Payment",
+    "hash": "payment",
+    "enabled": true
   },
   {
-    "title": "Contact",
-    "hash": "contact",
-    "enabled": true,
     "id": "contact",
     "label": "Contact",
-    "type": "contact"
+    "icon": "alternate_email",
+    "type": "contact",
+    "title": "Contact",
+    "hash": "contact",
+    "enabled": true
   }
 ]

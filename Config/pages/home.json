@@ -1,7 +1,9 @@
 {
+  "layout": "cards",
   "sections": [
     {
       "heading": "About Me",
+      "icon": "person",
       "items": [
         "**Age:** 16 years old",
         "**Experience:** 6 years of full-stack Roblox development",
@@ -10,6 +12,7 @@
     },
     {
       "heading": "Strengths",
+      "icon": "bolt",
       "items": [
         "Full-stack Roblox development",
         "Server-side systems and architecture",
@@ -25,6 +28,7 @@
     },
     {
       "heading": "Weaknesses",
+      "icon": "warning_amber",
       "items": [
         "Physics-based systems",
         "Systems that require a lot of math"
@@ -32,6 +36,7 @@
     },
     {
       "heading": "Coding Practices",
+      "icon": "code",
       "items": [
         "Clean and consistent code structure",
         "Readable code that is easy to understand and modify",
@@ -45,6 +50,7 @@
     },
     {
       "heading": "Working Hours",
+      "icon": "schedule",
       "badge": "10:00 PM - 2:30 AM EST"
     }
   ]

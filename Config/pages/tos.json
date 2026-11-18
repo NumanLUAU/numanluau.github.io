@@ -1,7 +1,9 @@
 {
+  "layout": "accordion",
   "sections": [
     {
       "heading": "Payment",
+      "icon": "payments",
       "items": [
         "A 50% upfront payment is required before work begins.",
         "The remaining 50% is paid after the agreed work is completed.",
@@ -11,6 +13,7 @@
     },
     {
       "heading": "Project Requirements",
+      "icon": "checklist",
       "items": [
         "You must provide all assets required for the requested work.",
         "You must provide a Game Design Document before development begins.",
@@ -19,12 +22,14 @@
     },
     {
       "heading": "Game Design Document",
+      "icon": "description",
       "text": [
         "The provided Game Design Document should contain enough information for development to begin without requiring major assumptions about how the requested systems should work."
       ]
     },
     {
       "heading": "Development Structure",
+      "icon": "dashboard_customize",
       "items": [
         "Work can be completed per task for smaller commissions.",
         "Work can be completed monthly for larger or ongoing projects.",
@@ -34,6 +39,7 @@
     },
     {
       "heading": "Scope Changes",
+      "icon": "tune",
       "items": [
         "Requests outside the agreed scope may require additional payment.",
         "Major changes to already completed systems may be treated as new work.",
@@ -42,12 +48,14 @@
     },
     {
       "heading": "Communication",
+      "icon": "forum",
       "text": [
         "Clear communication is expected throughout development. Requirements, assets, design documents, and other relevant information should be provided before the corresponding work begins."
       ]
     },
     {
       "heading": "Availability",
+      "icon": "schedule",
       "badge": "10:00 PM - 2:30 AM EST"
     }
   ]
