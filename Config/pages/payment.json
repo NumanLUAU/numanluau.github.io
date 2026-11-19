@@ -5,14 +5,21 @@
       "heading": "Commissions",
       "icon": "work",
       "text": [
-        "Commissions start at **$15 USD** or **2,500 Robux**."
+        "Commissions start at **$15 USD**."
       ]
     },
     {
       "heading": "Part-Time",
       "icon": "schedule",
       "text": [
-        "Part-time work starts at **$250 USD** or **25,000 Robux**."
+        "Part-time work starts at **$250 USD**. (Flexible with payments depending on work.)"
+      ]
+    },
+    {
+      "heading": "Full-Time",
+      "icon": "timer",
+      "text": [
+        "Full-time work starts at **$450 USD**. (Flexible with payments depending on work.)"
       ]
     },
     {
